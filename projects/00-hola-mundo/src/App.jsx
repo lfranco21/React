@@ -1,40 +1,27 @@
 import './App.css'
-import { TwitterFollowCard } from './TwitterFollowCard'
+import { TwitterFollowCard } from './TwitterFollowCard.jsx'
 
 const users = [
-
   {
-
     userName: 'midudev',
-    name: 'Miguel Angel Duran',
+    name: 'Miguel Ángel Durán',
     isFollowing: true
-
   },
-
   {
-
-    userName: 'lfranco00',
-    name: 'Luis E. Franco R.',
+    userName: 'pheralb',
+    name: 'Pablo H.',
     isFollowing: false
-
   },
-
   {
-
-    userName: 'tefaorg',
-    name: 'Estefania Ortiz',
+    userName: 'PacoHdezs',
+    name: 'Paco Hdez',
     isFollowing: true
-
   },
-
   {
-
-    userName: 'vxnder',
-    name: 'Vanderhart',
+    userName: 'TMChein',
+    name: 'Tomas',
     isFollowing: false
-
   }
-
 ]
 
 export function App () {
@@ -52,6 +39,5 @@ export function App () {
         ))
       }
     </section>
-
   )
 }
